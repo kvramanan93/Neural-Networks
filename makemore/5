@@ -1,0 +1,9 @@
+The drop in the graph is due to learning rate decay which has made sure that the graph settles sooner.
+
+validation and training loss are bad when you just initiated the neural net
+
+
+we can still make new layers and make the network deeper but it doesnt change the fact that we are crshing all the elements all the way in the beggining. this is the reason why
+you need to take this new method into consideration(Squahging all neurons in a single step)
+
+ we fuse the information from the p[revious context slowly into the network as it gets deeper
